@@ -1,0 +1,39 @@
+.row {
+    display: grid;
+}
+
+.row-50-50 {
+    grid-template-columns: 50% 50%;
+}
+
+.row-fullheight {
+    min-height: 100vh;
+}
+
+.row-3 {
+    grid-template-columns: repeat(3, auto);
+}
+
+.row-content-layout {
+    grid-template-columns: minmax(16rem, auto) auto;
+}
+
+.row-outlined .col:not(:last-of-type):not(:first-child) {
+    border-right-style: solid;
+    border-right-color: #c8d6e5;
+    border-right-width: 2px;
+}
+
+.col  {
+    display: grid;
+}
+
+.col-gap-1 {
+    gap: 1rem;
+}
+
+@media (max-width: 530px) {
+    .row-content-layout {
+        display: block;
+    }
+}

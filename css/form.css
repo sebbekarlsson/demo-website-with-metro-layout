@@ -1,0 +1,35 @@
+form {
+    width: 100%;
+}
+
+form label, form input[type="text"], form input[type="email"], form textarea {
+    display: block;
+    width: 100%;
+}
+
+form label+input, form label+textarea {
+    margin-top: 0.5rem;
+}
+
+form .form-section {
+    margin-bottom: 1rem;
+}
+
+form input[type="text"], form input[type="email"] {
+    height: 2rem;
+}
+
+form textarea {
+    height: 6rem;
+}
+
+form input[type="text"], input[type="email"], form textarea {
+    border: none;
+    outline: none;
+    background: none;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #222f3e;
+    background-color: #c8d6e5;
+}

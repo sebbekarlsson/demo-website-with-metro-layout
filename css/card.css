@@ -1,0 +1,47 @@
+.card {
+    width: 100%;
+    min-height: 8rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    color: white;
+}
+
+.card p {
+    color: #222f3e;
+}
+
+.card-small {
+    min-height: 12rem;
+}
+
+.card-medium {
+    min-height: 16rem;
+}
+
+.card-large {
+    min-height: 18rem;
+}
+
+.card-primary {
+    background-color: #ff9f43;
+}
+
+.card-secondary {
+    background-color: #8395a7;
+}
+
+.card-warning {
+    background-color: #ee5253;
+}
+
+.card-light {
+    background-color: #c8d6e5;
+}
+
+.card-ok {
+    background-color: #1dd1a1;
+}
