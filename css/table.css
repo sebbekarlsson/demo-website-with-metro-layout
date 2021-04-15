@@ -11,3 +11,18 @@ table th, table td {
 table tr.alt {
     background-color: var(--color-light);
 }
+
+table tr {
+    transition: background-color .3s;
+}
+
+table tr:hover {
+    background-color: var(--color-primary);
+    transition: background-color .3s;
+}
+
+table tr:hover .button:not(:hover) {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--color-secondary-dark);
+}
