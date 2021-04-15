@@ -2,7 +2,9 @@
 @import "../third/icons-1.4.1/font/bootstrap-icons.css";
 
 /* Helpers & utils */
+@import "themes/main.css";
 @import "helpers.css";
+@import "animations.css";
 
 /* Elements & components */
 @import "banner.css";
@@ -13,6 +15,9 @@
 @import "button.css";
 @import "card.css";
 @import "metro.css";
+@import "footer.css";
+@import "section.css";
+@import "table.css";
 
 
 * {

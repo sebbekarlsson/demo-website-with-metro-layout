@@ -30,6 +30,6 @@ form input[type="text"], input[type="email"], form textarea {
 
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: #222f3e;
-    background-color: #c8d6e5;
+    border-bottom-color: var(--color-secondary-dark);
+    background-color: var(--color-light);
 }

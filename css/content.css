@@ -1,3 +1,17 @@
+.content {
+    min-height: 100vh;
+    color: var(--color-secondary-dark);
+}
+
 .content header {
-    height: 4rem;
+    height: 8rem;
+    font-size: 2rem;
+}
+
+.content h3 {
+    font-size: 1.8rem;
+}
+
+h3+table {
+    margin-top: 1rem;
 }

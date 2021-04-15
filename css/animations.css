@@ -1,0 +1,17 @@
+@keyframes bounce-up-down {
+    0% {
+        bottom: 2rem;
+    }
+
+    80% {
+        bottom: 1rem;
+    }
+    
+    100% {
+        bottom: 2rem;
+    }
+}
+
+.animation-bounce-up-down {
+    animation: bounce-up-down 2.5s infinite;
+}
